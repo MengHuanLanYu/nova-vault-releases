@@ -1,6 +1,32 @@
-# NovaVault Releases
+# NovaVault
 
-NovaVault 官方发布仓库。
+NovaVault 是一款主打**绝对数据自持**的跨平台密码管理与开发者工具箱。
+
+## 核心特性
+
+**密码管理器**
+- 密码分组、条目管理、搜索、收藏
+- 历史版本记录、平台图标自动抓取
+- 一键复制、剪贴板自动清空
+- MFA 两步验证码实时读秒
+
+**开发者工具箱**
+- JSON 格式化 / 压缩
+- 文本 Diff 对比
+- 时间戳转换
+- Base64 编解码
+- 纯本地运行，断网可用
+
+**零信任安全架构**
+- 主密码 + Secret Key 双密钥保护
+- AES-256-GCM 加密，Argon2 密钥派生
+- 本地 SQLite 存储，数据不离开你的设备
+- WebDAV 加密同步，远端只存密文
+
+**跨平台**
+- macOS (Apple Silicon / Intel)
+- Windows
+- Linux
 
 ## 下载
 
